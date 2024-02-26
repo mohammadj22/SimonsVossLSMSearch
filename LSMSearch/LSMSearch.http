@@ -1,0 +1,6 @@
+@LSMSearch_HostAddress = http://localhost:5001
+
+GET {{LSMSearch_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
