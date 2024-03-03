@@ -1,6 +1,6 @@
 ﻿namespace LSMSearch.Models;
 
-public class Building
+public class Building : IEntity
 {
 	public string Id { get; set; }
 	public string ShortCut { get; set; }

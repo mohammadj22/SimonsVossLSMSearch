@@ -1,6 +1,6 @@
 ﻿namespace LSMSearch.Models;
 
-public class Lock
+public class Lock : IEntity
 {
 	public string Id { get; set; }
 	public string BuildingId { get; set; }

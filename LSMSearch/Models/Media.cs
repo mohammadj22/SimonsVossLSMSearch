@@ -1,6 +1,6 @@
 ﻿namespace LSMSearch.Models;
 
-public class Media
+public class Media : IEntity
 {
 	public string Id { get; set; }
 	public string GroupId { get; set; }

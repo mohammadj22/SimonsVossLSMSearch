@@ -1,6 +1,6 @@
 ﻿namespace LSMSearch.Models;
 
-public class Group
+public class Group : IEntity
 {
 	public string Id { get; set; }
 	public string Name { get; set; }
