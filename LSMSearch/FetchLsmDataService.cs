@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 namespace LSMSearch;
 
-public class FetchLsmDataService
+public class FetchLsmDataService : IFetchLsmDataService
 {
 	private string JsonDatafileAddress = "sv_lsm_data.json";
 	private readonly IMemoryCache _cache;

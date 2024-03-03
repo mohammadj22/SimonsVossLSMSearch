@@ -8,7 +8,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Services.AddMemoryCache();
-builder.Services.AddScoped<FetchLsmDataService>();
+builder.Services.AddSingleton<IFetchLsmDataService, FetchLsmDataService>();
+builder.Services.AddSingleton<ISearchEngine, SearchEngine>();
 
 var app = builder.Build();
 

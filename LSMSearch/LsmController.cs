@@ -6,16 +6,16 @@ namespace LSMSearch;
 [Route("api/[controller]")]
 public class LsmController : ControllerBase
 {
-	private readonly FetchLsmDataService _fetchLsmDataService;
+	private readonly ISearchEngine _searchEngine;
 
-	public LsmController(FetchLsmDataService fetchLsmDataService)
+	public LsmController(ISearchEngine searchEngine)
 	{
-		_fetchLsmDataService = fetchLsmDataService;
+		_searchEngine = searchEngine;
 	}
 
 	[HttpGet("search")]
 	public async Task<IActionResult> Search([FromQuery] string input)
 	{
-		return Ok(await _fetchLsmDataService.ReadFromFileAndReturnData());
+		return Ok(await _searchEngine.Search(input));
 	}
 }

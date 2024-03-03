@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Data_OneBuilding_10RelatedLocks" xml:space="preserve">
+        <value>{
+  "buildings": [
+    {
+      "id": "0cccab2b-bc8d-44c5-b248-8a9ca6d7e899",
+      "shortCut": "HOFF",
+      "name": "Head Office",
+      "description": "Head Office, Feringastraße 4, 85774 Unterföhring"
+    }
+  ],
+  "locks": [
+    {
+      "id": "0a1e6f38-6076-4da8-8d6c-87356f975baf",
+      "buildingId": "0cccab2b-bc8d-44c5-b248-8a9ca6d7e899",
+      "type": "Cylinder",
+      "name": "Gästezimmer 4.OG",
+      "description": null,
+      "serialNumber": "UID-A89F98F3",
+      "floor": "4.OG",
+      "roomNumber": "454"
+    },
+    {
+      "id": "e657a28e-d744-4f62-b5d8-a64123c2400f",
+      "buildingId": "0cccab2b-bc8d-44c5-b248-8a9ca6d7e899",
+      "type": "Cylinder",
+      "name": "WC Herren 3.OG süd",
+      "description": null,
+      "serialNumber": "UID-C043133A",
+      "floor": "3.OG",
+      "roomNumber": "WC.HL"
+    },
+    {
+      "id": "be3d6d9e-3e30-4294-af60-bf24afacbefe",
+      "buildingId": "0cccab2b-bc8d-44c5-b248-8a9ca6d7e899",
+      "type": "Cylinder",
+      "name": "WC Damen 3.OG süd",
+      "description": null,
+      "serialNumber": "UID-F40C9966",
+      "floor": "3.OG",
+      "roomNumber": "WC.DL"
+    },
+    {
+      "id": "75696d97-2323-4647-b3a0-d59907273467",
+      "buildingId": "0cccab2b-bc8d-44c5-b248-8a9ca6d7e899",
+      "type": "Cylinder",
+      "name": "WC Herren 3.OG west",
+      "description": null,
+      "serialNumber": "UID-82CE310A",
+      "floor": "3.OG",
+      "roomNumber": "WC.HR"
+    },
+    {
+      "id": "12fb5bd1-4f9a-44fc-a9ec-a1b3649e81ec",
+      "buildingId": "0cccab2b-bc8d-44c5-b248-8a9ca6d7e899",
+      "type": "Cylinder",
+      "name": "WC Damen 3.OG west",
+      "description": null,
+      "serialNumber": "UID-B681BB56",
+      "floor": "3.OG",
+      "roomNumber": "WC.DR"
+    },
+    {
+      "id": "060da4ab-dd20-4539-ac2e-8c47fd0bca50",
+      "buildingId": "0cccab2b-bc8d-44c5-b248-8a9ca6d7e899",
+      "type": "Cylinder",
+      "name": "Schulungsraum",
+      "description": null,
+      "serialNumber": "UID-5DE29561",
+      "floor": "EG",
+      "roomNumber": "S01"
+    },
+    {
+      "id": "14cfce07-160c-4454-83c2-c7ba29f51796",
+      "buildingId": "0cccab2b-bc8d-44c5-b248-8a9ca6d7e899",
+      "type": "Cylinder",
+      "name": "Besprechungsraum 1.OG",
+      "description": null,
+      "serialNumber": "UID-9590FAD2",
+      "floor": "1.OG",
+      "roomNumber": "117"
+    },
+    {
+      "id": "40c8a9ef-e533-470e-b127-4f09b791cb88",
+      "buildingId": "0cccab2b-bc8d-44c5-b248-8a9ca6d7e899",
+      "type": "Cylinder",
+      "name": "Besprechungsraum 3.OG",
+      "description": null,
+      "serialNumber": "UID-F5CC4F99",
+      "floor": "3.OG",
+      "roomNumber": "332"
+    },
+    {
+      "id": "2f4632c2-c980-47c4-9c86-226e4493aba5",
+      "buildingId": "0cccab2b-bc8d-44c5-b248-8a9ca6d7e899",
+      "type": "Cylinder",
+      "name": "Besprechungsraum 4.OG klein",
+      "description": null,
+      "serialNumber": "UID-234FFA7D",
+      "floor": "4.OG",
+      "roomNumber": "402"
+    },
+    {
+      "id": "0c3d0cd4-a24e-45e9-85dd-80ad7a91ba79",
+      "buildingId": "0cccab2b-bc8d-44c5-b248-8a9ca6d7e899",
+      "type": "Cylinder",
+      "name": "Besprechungsraum 4.OG groß",
+      "description": null,
+      "serialNumber": "UID-41302C30",
+      "floor": "4.OG",
+      "roomNumber": "408"
+    },
+    {
+      "id": "b386ba3d-aac7-410a-9fa5-9a2b3a989527",
+      "buildingId": "9605186f-7eb4-4f40-967e-2885d9a8b3c4",
+      "type": "Cylinder",
+      "name": "Besprechungsraum Osterfeld klein",
+      "description": null,
+      "serialNumber": "UID-43C3F2C8",
+      "floor": null,
+      "roomNumber": "B.01"
+    },
+    {
+      "id": "d4f144db-cdb8-4b85-ae9c-e4603aa6482e",
+      "buildingId": "9605186f-7eb4-4f40-967e-2885d9a8b3c4",
+      "type": "Cylinder",
+      "name": "Besprechungsraum Osterfeld groß",
+      "description": null,
+      "serialNumber": "UID-21BC2485",
+      "floor": null,
+      "roomNumber": "B.02"
+    }
+  ]
+}</value>
+    </data>
+  <data name="Data_OneBuildingAndTwoRelatedLocks" xml:space="preserve">
+    <value>{
+  "buildings": [
+    {
+      "id": "0cccab2b-bc8d-44c5-b248-8a9ca6d7e899",
+      "shortCut": "HOFF",
+      "name": "Head Office",
+      "description": "Head Office, Feringastraße 4, 85774 Unterföhring"
+    }
+  ],
+  "locks": [
+    {
+      "id": "0a1e6f38-6076-4da8-8d6c-87356f975baf",
+      "buildingId": "0cccab2b-bc8d-44c5-b248-8a9ca6d7e899",
+      "type": "Cylinder",
+      "name": "Gästezimmer 4.OG",
+      "description": null,
+      "serialNumber": "UID-A89F98F3",
+      "floor": "4.OG",
+      "roomNumber": "454"
+    },
+    {
+      "id": "e657a28e-d744-4f62-b5d8-a64123c2400f",
+      "buildingId": "0cccab2b-bc8d-44c5-b248-8a9ca6d7e899",
+      "type": "Cylinder",
+      "name": "WC Herren 3.OG süd",
+      "description": null,
+      "serialNumber": "UID-C043133A",
+      "floor": "3.OG",
+      "roomNumber": "WC.HL"
+    }
+  ]
+}</value>
+  </data>
+  <data name="Data_OneGroupThreeMedia" xml:space="preserve">
+    <value>{
+    "groups": [
+        {
+          "id": "70c886f5-b74e-49f4-8d9f-cf2d6645d4d6",
+          "name": "&lt;default&gt;",
+          "description": "Default group where all transponders"
+        }
+    ],
+      "media": [
+    {
+      "id": "2c2ec98f-137a-4c49-a47a-814ae18a3364",
+      "groupId": "70c886f5-b74e-49f4-8d9f-cf2d6645d4d6",
+      "type": "Card",
+      "owner": "Gast 1",
+      "description": null,
+      "serialNumber": "UID-378D17F6"
+    },
+    {
+      "id": "1a3648e2-1641-47f5-b9e3-dec74bb0fe56",
+      "groupId": "70c886f5-b74e-49f4-8d9f-cf2d6645d4d6",
+      "type": "Card",
+      "owner": "Gast 2",
+      "description": null,
+      "serialNumber": "UID-B1196558"
+    },
+    {
+      "id": "c09ebd30-d695-4053-9f9c-177a692f40e2",
+      "groupId": "70c886f5-b74e-49f4-8d9f-cf2d6645d4d6",
+      "type": "Card",
+      "owner": "Gast 3",
+      "description": null,
+      "serialNumber": "UID-7A45B6FD"
+    }
+]
+}
+</value>
+  </data>
+</root>
