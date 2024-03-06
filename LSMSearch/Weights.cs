@@ -39,6 +39,11 @@ public static class Weights
 		{ "SerialNumber", 8 },
 		{ "Description", 6 }
 	};
+	
+	public static Dictionary<string, int> GroupMedia = new()
+	{
+		{ "Name", 8 }
+	};
 
 	public static Dictionary<string, int> GetModelWeightsDictionary(string modelName)
 	{
@@ -49,6 +54,7 @@ public static class Weights
 			"BuildingLock" => BuildingLock,
 			"Groups" => Group,
 			"Media" => Media,
+			"GroupMedia" => GroupMedia,
 			_ => throw new ArgumentException("Model not found")
 		};
 	}
