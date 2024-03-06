@@ -15,6 +15,7 @@
 
     <ItemGroup>
       <Content Remove="sv_lsm_data.json" />
+      <Content Include=".github\workflows\cd.yml" />
       <EmbeddedResource Include="sv_lsm_data.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </EmbeddedResource>
