@@ -11,6 +11,16 @@ builder.Services.AddMemoryCache();
 builder.Services.AddSingleton<IFetchLsmDataService, FetchLsmDataService>();
 builder.Services.AddSingleton<ISearchEngine, SearchEngine>();
 
+const string myAllowSpecificOrigins = "_myAllowSpecificOrigins";
+builder.Services.AddCors(options =>
+{
+	options.AddPolicy(name: myAllowSpecificOrigins,
+		policy  =>
+		{
+			policy.WithOrigins("*").AllowAnyHeader();
+		});
+});
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -23,6 +33,6 @@ app.MapControllers();
 
 
 app.UseHttpsRedirection();
-
+app.UseCors(myAllowSpecificOrigins);
 
 app.Run();
